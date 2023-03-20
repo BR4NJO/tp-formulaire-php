@@ -1,0 +1,38 @@
+* {
+    font-family: sans-serif;
+}
+
+.errorMessage {
+    color: red;
+    margin: 0;
+}
+
+#box {
+    background-color: lightgray;
+    padding: 25px;
+    border: 1px solid black;
+    max-width: 800px;
+}
+
+#box input,
+select,
+textarea {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.boxDeux {
+    background-color: rgb(223, 237, 223);
+    margin: auto;
+    padding: 25px;
+    border: 1px solid blue;
+    margin-top: 25px;
+}
+
+h3 {
+    text-decoration: underline black;
+}
+
+::placeholder {
+    opacity: 0.2;
+}
